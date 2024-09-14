@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      content="width=device-width, initial-scale=1.0"
+      name="viewport" />
+    <title>Technical Documentation Page</title>
+    <link
+      href="./styles.css"
+      rel="stylesheet" />
+  </head>
+  <body>
+    <nav id="navbar">
+      <header>Python Documentation</header>
+      <a
+        class="nav-link"
+        href="#introduction"
+        >Introduction</a
+      >
+      <a
+        class="nav-link"
+        href="#syntax"
+        >Python Syntax</a
+      >
+      <a
+        class="nav-link"
+        href="#variables"
+        >Variables</a
+      >
+      <a
+        class="nav-link"
+        href="#functions"
+        >Functions</a
+      >
+      <a
+        class="nav-link"
+        href="#loops"
+        >Loops in Python</a
+      >
+    </nav>
+    <main id="main-doc">
+      <section
+        class="main-section"
+        id="introduction">
+        <header>Introduction</header>
+        <p>
+          Python is a high-level, interpreted programming language that emphasizes readability and
+          simplicity. It's commonly used in web development, data science, artificial intelligence,
+          and more.
+        </p>
+        <p>
+          This documentation provides an overview of Python syntax, variables, functions, and
+          control structures like loops.
+        </p>
+      </section>
+      <section
+        class="main-section"
+        id="syntax">
+        <header>Python Syntax</header>
+        <p>Python syntax is clean and easy to learn. Here is a basic "Hello, World!" example:</p>
+        <code>print("Hello, World!")</code>
+        <p>
+          Python uses indentation (whitespace) to define blocks of code, instead of curly braces
+          like in other languages.
+        </p>
+        <ul>
+          <li>Statements end with a newline, no semicolon required</li>
+          <li>Indentation is used to define code blocks</li>
+          <li>Python is case-sensitive</li>
+        </ul>
+      </section>
+      <section
+        class="main-section"
+        id="variables">
+        <header>Variables</header>
+        <p>
+          Variables in Python are dynamically typed, meaning you don't have to declare their type
+          explicitly. Here's how to declare and assign values:
+        </p>
+        <code>x = 10<br />y = "Hello, Python"<br />z = 3.14</code>
+        <ul>
+          <li>Variables do not need a type declaration</li>
+          <li>They are created upon assignment</li>
+          <li>
+            Common data types include <code>int</code>, <code>str</code>, and <code>float</code>
+          </li>
+        </ul>
+      </section>
+      <section
+        class="main-section"
+        id="functions">
+        <header>Functions</header>
+        <p>
+          Functions in Python are blocks of reusable code that can accept parameters and return
+          values. Here's how to define and call a function:
+        </p>
+        <code
+          >def my_function():<br />&nbsp;&nbsp;print("Hello from a function!")<br /><br />my_function()</code
+        >
+        <p>Functions can also return values and accept arguments:</p>
+        <code
+          >def add(a, b):<br />&nbsp;&nbsp;return a + b<br /><br />result = add(5, 3)<br />print(result)
+          # Outputs 8</code
+        >
+      </section>
+      <section
+        class="main-section"
+        id="loops">
+        <header>Loops in Python</header>
+        <p>
+          Loops allow you to iterate over a sequence of data (like a list, tuple, or string) and
+          perform repetitive tasks. The two main types of loops in Python are <code>for</code> loops
+          and <code>while</code> loops.
+        </p>
+        <p>Here's an example of a <code>for</code> loop:</p>
+        <code
+          >fruits = ["apple", "banana", "cherry"]<br />for fruit in fruits:<br />&nbsp;&nbsp;print(fruit)</code
+        >
+        <p>Here's an example of a <code>while</code> loop:</p>
+        <code>i = 1<br />while i &lt; 5:<br />&nbsp;&nbsp;print(i)<br />&nbsp;&nbsp;i += 1</code>
+        <ul>
+          <li><code>for</code> loops iterate over a sequence</li>
+          <li><code>while</code> loops run as long as a condition is true</li>
+          <li>
+            Both loops can be interrupted using <code>break</code> or
+            <code>continue</code> statements
+          </li>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>
